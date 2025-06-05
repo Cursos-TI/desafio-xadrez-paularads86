@@ -22,6 +22,7 @@ void moverrainha (int casas){
     }
 }
 
+
 int main(){
 int peca;
 int movimento = 1;
@@ -79,16 +80,13 @@ int i = 1;
         printf("Você escolheu o Bispo\n");
         for (int i = 1; i <=5; i++) //loop externo
         {
-            for (int j = 1; j <=1; j++)/*loop interno*/
+            for (int j = 1; j <2; j++)/*loop interno*/
             {
-            printf("Direita\n"); 
-            }
-         printf("Cima\n");
-        }
+            printf("Cima, Direita\n"); 
+            }         
+        }printf("\n");
        }
  
   
 return 0;
 }
-
-

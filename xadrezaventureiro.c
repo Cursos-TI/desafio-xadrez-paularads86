@@ -20,7 +20,7 @@ int i = 1;
          //mover a torre
          case 1:
         printf("Você escolheu a Torre\n"); 
-        //mover a torre cindo casas para a direita
+        //mover a torre cinco casas para a direita
         while (i <=5)
              {
              printf("Direita\n");
@@ -31,7 +31,7 @@ int i = 1;
         //mover o bispo
          case 2:
          printf("Você escolheu o Bispo\n"); 
-        //mover o Bispoe cinco casas para cima e direita
+        //mover o Bispo e cinco casas para cima e direita
         for ( i ; i <= 5; i++)
              {
              printf("Cima, Direita\n");
@@ -41,10 +41,10 @@ int i = 1;
          //mover a rainha
          case 3:
          printf("Você escolheu a Rainha\n"); 
-         //mover a rainha oito casas para baixo
+         //mover a rainha oito casas para a esquerda
          do
              {
-              printf("Baixo\n");
+              printf("Esquerda\n");
              i++;
              } while (i<=8);
          break;
